@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Decodificador</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1><img src="imagens/vector-a.png" alt="Logo da Alura"></h1>
+        </div>
+    </header>
+    <main>
+        <section class="mensagem-principal">
+            <textarea class="input-texto" placeholder="Digite seu texto"></textarea>
+            <div>
+                <h6 class="informacao"><img src="imagens/exclamacao.png" class="exclamacao" >Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div class="buttons">
+                <button class="criptografar" onclick="btncriptografar()" type="submit"> Criptografar  </button>
+                <button class="decodificador" onclick="btndescriptografar()" >Descriptografar</button>
+            </div>
+
+        </section>
+        <section class="mensagem-box">
+            <textarea id="mensagem" class="mensagem" placeholder="Nenhuma mensagem encontrada" readonly></textarea>
+            <!-- <div class="botao-painel"> -->
+                <button class="copiar" onclick="btnCopia()" type="submit">Copiar</button>
+                <p class="informacao-painel">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <p class="informacao-nenhuma">Nenhuma mensagem.</p>
+            <!-- </div> -->
+        </section>
+    </main>
+    <footer>
+        &copy; <a href="https://linkedin.com/in/byron-belizario-smith-nobrega" target="_blank">2023 - Byron Smith</a>
+    </footer>
+    <script src="script.js"></script>
+   
+</body>
+
+</html>
