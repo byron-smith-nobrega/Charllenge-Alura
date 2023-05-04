@@ -12,6 +12,9 @@ Projeto desenvolvido como didática de front-end para a turmas5 na ONE ALURA com
 * CSS3
 * JavaScript
 
+## Link Deploy
+https://byron-smith-nobrega.github.io/Charllenge-Alura/
+
 ## :rocket: Rodando o projeto
 Para rodar o repositório é necessário clonar e acessar o index.html.
 
